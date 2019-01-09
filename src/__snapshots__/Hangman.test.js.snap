@@ -19,8 +19,11 @@ exports[`matches snapshot 1`] = `
     _
     _
     _
+    _
   </p>
-  <p>
+  <p
+    id="win-or-lose"
+  >
     <button
       disabled={false}
       id="btn"
@@ -256,5 +259,12 @@ exports[`matches snapshot 1`] = `
       z
     </button>
   </p>
+  <button
+    id="reset-btn"
+    onClick={[Function]}
+  >
+     
+    Reset Game
+  </button>
 </div>
 `;
